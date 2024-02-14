@@ -1,0 +1,183 @@
+
+    /* CSS styles for the page layout */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    /* CSS styles for the header */
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 20px; /* Increase the padding to make the header bigger */
+      display: flex;
+      justify-content: space-between; /* Align items on the opposite ends of the header */
+      align-items: center;
+    }
+
+    header h2 {
+      margin: 0;
+    }
+
+    /* CSS styles for the dropdown */
+    .dropdown {
+      position: relative;
+    }
+
+    .dropdown .dropbtn {
+      background-color: #333; /* Change the background color to orange */
+      color: white;
+      padding: 12px;
+      font-size: 16px;
+      border: none;
+      cursor: pointer;
+    }
+
+    .dropdown .dropbtn:hover {
+      background-color: #333; /* Change the hover background color to a darker shade of orange */
+    }
+
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      min-width: 160px;
+      z-index: 1;
+      background-color: #f9f9f9;
+      box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    }
+
+    .dropdown-content a {
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+    }
+
+    .dropdown-content a:hover {
+      background-color: #f1f1f1;
+    }
+
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+
+    /* CSS styles for the problem card */
+    .problem-card {
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      padding: 10px;
+      margin-bottom: 20px;
+    }
+
+    .problem-card h3,
+    .problem-card h4 {
+      margin: 0;
+    }
+
+    .problem-card p {
+      margin: 10px 0;
+    }
+
+    /* CSS styles for the pagination links */
+    .pagination {
+      margin-top: 20px;
+      text-align: center;
+    }
+
+    .pagination a {
+      display: inline-block;
+      padding: 5px 10px;
+      text-decoration: none;
+      background-color: #f1f1f1;
+      border: 1px solid #ccc;
+      border-radius: 3px;
+      margin: 0 5px;
+    }
+
+    .pagination a:hover {
+      background-color: #ddd;
+    }
+
+    .pagination a:active {
+      background-color: #ccc;
+    }
+    /* Add the following styles to the existing CSS code */
+
+/* Add the following styles to the existing CSS code */
+/* Add the following styles to the existing CSS code */
+/* Add the following styles to the existing CSS code */
+.problem-card {
+  position: relative;
+  padding: 20px;
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+}
+
+.top-right-buttons {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.status-button {
+  margin-bottom: 5px;
+  background-color: #ccc;
+  color: #fff;
+  border: none;
+  padding: 8px 12px;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.status-button.done {
+  background-color: #4CAF50;
+}
+
+.status-button.close {
+  background-color: #f44336;
+}
+
+.status-button.view {
+  background-color: #007bff;
+}
+
+.status-button:hover {
+  opacity: 0.8;
+}
+
+h3,
+h4 {
+  margin-top: 10px;
+}
+
+.view {
+  color: #fff;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.header-button {
+  background-color: #333;;
+  color: white;
+  padding: 12px 24px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+.header-button:hover {
+  background-color: #333;;
+}
